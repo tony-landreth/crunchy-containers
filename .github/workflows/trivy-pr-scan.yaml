@@ -6,11 +6,9 @@ on:
   pull_request:
     branches:
       - master
-      - REL_4_7
   push:
     branches:
       - master
-      - REL_4_7
 
 jobs:
   scan:
