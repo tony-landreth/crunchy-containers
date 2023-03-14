@@ -2,7 +2,7 @@ name: Trivy Scheduled Scan
 
 on:
   schedule:
-    - cron: '30 * * * *' # Report on Mondays.
+    - cron: '40 * * * *' # Report on Mondays.
 
 jobs:
   # This job should match what's found in trivy-pr-scan.yaml.
